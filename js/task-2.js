@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 const images = [
   {
@@ -26,3 +26,14 @@ const images = [
     alt: "Lighthouse Coast Sea",
   }
 ];
+
+const gallery = document.querySelector(".gallery");
+
+const createGallery = images
+    .map(item => `
+      <li class="gallery-item">
+        <img src="${item.url}" alt="${item.alt}" class="gallery-image">
+      </li>
+      `).join("")
+
+gallery.insertAdjacentHTML("beforeend", createGallery);

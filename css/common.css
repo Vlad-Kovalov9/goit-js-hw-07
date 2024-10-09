@@ -13,10 +13,13 @@ body {
   line-height: 1.5;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; 
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  display: block;
 }
 
 h1,
@@ -77,6 +80,107 @@ button {
   align-items: center;
 }
 
+/* ------------------ task-2 ------------------ */
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
 
+.gallery-image {
+height: 100%;
+width: 360px;
+} 
 
+/* ------------------ task-3 ------------------ */
+
+.name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 15px;
+}
+
+.name-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.task-3-title {
+font-weight: 600;
+font-size: 24px;
+line-height: 133%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin-top: 16px;
+}
+
+/* ------------------ task-4 ------------------ */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.task-4-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.task-4-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+}
+
+.task-4-input:hover {
+  border: 1px solid #000;
+}
+
+.task4-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.task-4-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.task-4-button:hover,
+.task-4-button:focus {
+  background: #6c8cff;
+}
+
+/* ------------------ task-5 ------------------ */

@@ -184,3 +184,100 @@ margin-top: 16px;
 }
 
 /* ------------------ task-5 ------------------ */
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.task-5-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  margin-top: 16px;
+}
+
+/* ------------------ task-6 ------------------ */
+
+.task-6-div {
+  border-radius: 8px;
+  padding: 32px;
+  min-width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  width: fit-content;
+
+  display: flex;
+  gap: 16px;
+}
+
+.task-6-input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+}
+
+.task-6-create-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.task-6-destroy-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.boxes {
+  display: flex;
+  gap: 44px;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  min-width: 486px;
+  width: fit-content;
+  height: 134px;
+  margin-top: 16px;
+}
+
+.task-6-destroy-button:hover {
+  background: #ff7070;
+}
+
+.task-6-create-button:hover {
+  background: #6c8cff;
+}
